@@ -1,4 +1,4 @@
-## Following are the steps to set up vs code and git
+## Following are the steps to set up vs code and git on Ubuntu
 
 ### Install VS Code
 VS Code could be installed via either of the following ways:
@@ -21,3 +21,19 @@ sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code
 ```
+
+### Install git
+`sudo apt install git`
+
+#### Configure git
+Run the fillowing commands to configure git user name and email address
+```
+git config --global user.name "<username>"
+git config --global user.email "<your email>"
+```
+### Set up git on VS Code
+1. Lauch VS Code
+2. Click on `Settings` (icon located at bottom left corner)
+3. Type *git:enabled* and tick the checkbox
+4. Sign in to GitHub from VS Code
+    - Click on *Account* -> *Turn on Settings Sync* -> *Sign in* -> *Sign in with GitHub*
