@@ -33,7 +33,7 @@ git config --global user.email "<your email>"
 ```
 ### Set up git on VS Code
 1. Lauch VS Code
-2. Click on `Settings` (icon located at bottom left corner)
+2. Click on the gear button located at the bottem left corner and click `Settings`
 3. Type *git:enabled* and tick the checkbox
 4. Sign in to GitHub from VS Code
     - Click on *Account* -> *Turn on Settings Sync* -> *Sign in* -> *Sign in with GitHub*
